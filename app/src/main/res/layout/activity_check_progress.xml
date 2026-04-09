@@ -10,42 +10,32 @@
     android:layout_height="match_parent"
     tools:context=".HealthyRecipe">
 
-
-
+    <!-- Title -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Healthy Recipe"
+        android:text="Check Progress"
         android:textAlignment="center"
         android:textSize="30sp"
         android:layout_marginTop="20dp"
-        android:textColor="#10558C"
+        android:textColor="#10558C" />
 
-
-
-
-        />
+    <!-- Image -->
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/image5"
+        android:layout_margin="20dp"
         android:scaleType="centerCrop"
-        android:layout_margin="30dp"
-        />
+        android:src="@drawable/image9" />
+
+    <!-- Description -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="
-A healthy recipe focuses on nutrient-dense ingredients that nourish the body while limiting saturated fats, added sugars, and excess sodium"
+        android:text="Checking progress is a critical, ongoing process that involves measuring, monitoring, and evaluating activities against defined goals to ensure they remain on track. By regularly reviewing status updates using tools like checklists, KPIs, or performance metrics, individuals and teams can see how far they have come and determine how much work remains. This helps keep projects organized, reduces delays, and motivates progress."
         android:textAlignment="center"
-        android:textSize="20dp"
-        android:layout_marginTop="20dp"
-        android:textColor="#10558C"
-
-
-
-
-        />
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+        android:textColor="#000000" />
 
 </LinearLayout>
-

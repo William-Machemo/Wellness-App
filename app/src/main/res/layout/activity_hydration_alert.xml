@@ -5,19 +5,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:orientation="vertical"
+    android:background="#009688"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFEB3B"
-    tools:context=".Meditation">
-
-
-
+    tools:context=".NutritionAdvice">
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Meditation"
+        android:text="Hydration Alert"
         android:textAlignment="center"
         android:textSize="30sp"
 
@@ -28,17 +25,18 @@
 
 
         />
+
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="358dp"
         android:layout_height="200dp"
-        android:src="@drawable/image1"
-        android:scaleType="centerCrop"
         android:layout_margin="30dp"
-        />
+        android:scaleType="centerCrop"
+        android:src="@drawable/image8" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Meditation is an ancient, widely practiced mental exercise designed to calm the mind, enhance self-awareness, and promote profound relaxation by focusing attention and eliminating jumbled thoughts"
+        android:text="
+A hydration alert is a proactive reminder—either from a wearable device, app, or simple monitoring of physical cues—to consume fluids before the body signals thirst"
         android:textAlignment="center"
         android:textSize="20dp"
 
@@ -50,6 +48,5 @@
 
         />
 
+
 </LinearLayout>
-
-

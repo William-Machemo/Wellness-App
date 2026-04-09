@@ -5,51 +5,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:orientation="vertical"
+    android:background="#C36A6A"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFEB3B"
-    tools:context=".Meditation">
-
-
-
+    tools:context=".HealthyRecipe">
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Meditation"
+        android:text="Weekly Goals"
         android:textAlignment="center"
         android:textSize="30sp"
-
         android:layout_marginTop="20dp"
-        android:textColor="#752943"
+        android:textColor="#10558C" />
 
 
-
-
-        />
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:src="@drawable/image1"
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:layout_margin="20dp"
         android:scaleType="centerCrop"
-        android:layout_margin="30dp"
-        />
+        android:src="@drawable/image4" />
+
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Meditation is an ancient, widely practiced mental exercise designed to calm the mind, enhance self-awareness, and promote profound relaxation by focusing attention and eliminating jumbled thoughts"
+        android:text="Weekly goals act as a crucial bridge between long-term aspirations and daily tasks, providing a structured 7-day roadmap to increase productivity and maintain focus. By breaking large projects into manageable bite-sized targets, weekly goals reduce procrastination and boost motivation."
         android:textAlignment="center"
-        android:textSize="20dp"
-
-        android:layout_marginTop="20dp"
-        android:textColor="#752943"
-
-
-
-
-        />
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+        android:textColor="#10558C" />
 
 </LinearLayout>
-
-
